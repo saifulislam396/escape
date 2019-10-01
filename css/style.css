@@ -1,0 +1,564 @@
+@font-face{
+    src: url(../font/escape_fonts/brandon_bld.ttf);
+    font-family:brandon_bld;
+    
+}
+@font-face{
+     src: url(../font/escape_fonts/brandon_light.ttf);
+    font-family:brandon_light;
+}
+@font-face{
+    src: url(../font/escape_fonts/brandon_med.ttf);
+    font-family:brandon_med;
+}
+@font-face{
+     src: url(../font/escape_fonts/brandon_reg.ttf);
+    font-family:brandon_reg;
+}
+@font-face{
+     src: url(../font/Cubano/Cubano.ttf);
+    font-family:Cubano;
+}
+body{
+margin: 0;
+padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    
+}
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+        padding-top: 50px;
+    overflow: hidden;
+   
+}
+.banner img{
+   
+}
+/*header start*/
+.header{
+  
+}
+.logoimg{
+        width: 35%;
+    
+}
+.header_logo{
+   width: 15%;
+    /* padding-left: 22px; */
+    /* padding-top: 20px; */
+    float: left;
+    
+}
+.header_logo img{
+        float: left;
+    padding-right: 5px;
+    width: 100%;
+}
+.header_text{
+       float: left;
+}
+.header_text h1{
+    font-family: Cubano;
+    font-size: 24.8px;
+    color: white;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.header_menu{
+    float: right;
+}
+.header_menu ul{
+      
+}
+.header_menu ul li {
+   
+      float: left;
+    padding-right: 20px;
+    list-style: navajowhite;
+    list-style: none;
+}
+
+.header_menu ul li a{
+    font-family: brandon_med;
+        text-decoration: none;
+     color: white;
+    font-size:18px;
+    transition: 0.5s;
+}
+.header_menu ul li a:hover{
+    color: #1F1B36;
+    background: white;
+    
+}
+/*header end*/
+ /* header banner start*/
+.headerbanner{
+    text-align: center;
+        margin-top: 105px;
+   
+}
+.headerbanner p{
+    font-family:brandon_light;
+    font-size: 32px;
+    color: white;
+}
+.headerbanner h1{
+     font-family:brandon_bld;
+    font-size: 66px;
+    color: white;
+}
+.headerbanner button{
+         background: none;
+           padding: 10px 45px;
+    
+}
+.btn-text{
+    font-family: brandon_bld;
+    font-size: 23px;
+    color: white;
+}
+ /* header banner end*/
+/*blog1 start*/
+.blogstart{
+    background: #F3F3F3;
+}
+.blog{
+    margin-bottom: 100px;
+}
+span{
+    font-family:brandon_bld;
+    font-size: 60px;
+}
+.blog_content{
+    
+}
+.left{
+      
+    width: 64%;
+    float: left;
+}
+.box_left img{
+    
+}
+.left h1{
+     font-family:brandon_light;
+    font-size: 60px;
+}
+.left p{
+    
+}
+.right{   
+    width: 30%;
+    float: right;
+    margin-top: 5%;
+    
+}
+.right img{
+        width: 100%;
+}
+/*blog1 end*/
+/*blog2 start*/
+.blog2{
+    padding-bottom: 140px;
+}
+.left2{
+    width: 30%;
+    float: left;
+    
+}
+.left2 img{
+    width: 100%;
+}
+.left2 h1{
+    
+}
+.left2 p{
+    
+}
+.right2{   
+    width: 64%;
+    float: left;
+        margin-left: 50px;
+    
+}
+.right2 img{
+    width: 30%;
+    float: right;
+    margin-top: 5%;
+}
+.right2 h1{
+    font-family:brandon_light;
+    font-size: 60px;
+}
+/*blog2 end*/
+/*our course start*/
+.our_course{
+    padding: 100px 0;
+}
+.our_course_left{
+        width: 35%;
+    float: left;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.branding_text{
+        width: 80%;
+    float: right;
+}
+.branding_text h4{
+            margin-top: 10px;
+    margin-left: 20px;;
+}
+.branding_text p{
+        margin-left: 20px;
+}
+.our_course_right{
+    width: 35%;
+    float: right;
+}
+.our_course_left:last-child img{
+    padding-top: 20px;
+    border: 1px solid black;
+   
+}
+img{
+    margin-top: 20px;
+}
+.our_course img:last-child{
+        padding-top: 10px;
+}
+.logo2{
+  width: 20%;
+    float: left;  
+}
+.right_1_text{
+     width: 80%;
+    float: right;
+}
+.right_1_text h4{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.right_1_text p{
+    margin-left: 20px;
+}
+/*our course end*/
+/*--Awesome client blog start--*/
+.Awesomeclientblog{
+    font-family: brandon_light;
+    background-color: #FAFAFA;
+}
+.Awesomeclientblog h1{
+    font-size: 60px;
+}
+.clientblog{
+        margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+}
+.Awesomeclientblog p{
+    font-family:brandon_reg;
+    font-size: 22px;
+}
+span{
+    font-family: brandon_bld;
+}
+.border img{
+    
+    
+}
+.imagesbrdr{
+    width: 240px;
+    background-color: black;
+    border-radius: 50%;
+}
+.bordertext{
+        float: right;
+    width: 70%;
+    padding-top: 50px;
+}
+.bordertext h1{
+    
+}
+.bordertext p{
+    
+}
+.brdrimg2 img{
+    
+}
+.box{
+    float: left;
+      background-color: black;
+    width: 200px;
+    height: 200px;
+    /* border: navajowhite; */
+    border-radius: 50%;
+}
+.boximg{
+        padding: 30px 65px;
+    width: 80px;
+}
+.box2{
+    font-family: brandon_reg;
+    color: #777777;
+        margin-right: 100px;
+    margin-top: 20px;
+    float: right;
+    width: 647px;
+    height: 170px;
+    background-color: #d9d9d9;;
+}
+.box2 h2{
+    text-align: center;
+    font-size: 26px;
+}
+.box2 p{
+    text-align: center;
+    color:aquamarine;
+    
+}
+.box3{
+        float: right;
+      background-color: black;
+    width: 200px;
+    height: 200px;
+    /* border: navajowhite; */
+    border-radius: 50%;
+}
+.box4{
+     font-family: brandon_reg;
+    color: #777777;
+        margin-right: 100px;
+    margin-top: 20px;
+    float: left;
+    width: 647px;
+    height: 170px;
+    background-color: #d9d9d9;
+}
+.allborder{
+    overflow: hidden;
+    padding-top: 20px;
+}
+.fairst_brdr{
+    
+}
+.secnd_brdr{
+    padding-top: 50px;
+}
+/*--Awesome client blog start--*/
+/*social icon strt*/
+.wrapper2{
+        width: 65%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.wrapper2 ul{
+    overflow: hidden;
+}
+.wrapper2 ul li{
+        list-style: none;
+    float: left;
+    margin-right: 5.5%; 
+}
+.wrapper2 ul li a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+/*social icon end*/
+/*team start*/
+.team{
+      background-color: #111111;  
+}
+.team_text{
+        text-align: center;
+    margin-bottom: 100px;
+}
+.team_text h2{
+    font-size: 60px;
+       color: white;
+    margin-bottom: -20px; 
+}
+.team_text p{
+    color: #777777;
+        font-size: 22px;
+}
+span{
+       color: white; 
+}
+/*team end*/
+
+
+/*team 1 start*/
+.member{
+    overflow:hidden;
+}
+.team_one{
+        width: 28%;
+    float: left;
+    margin-right: 44px;
+    display: block;
+}
+.member_icon{
+    
+}
+.team_one img{
+        width: 250px;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.name{
+        font-family: BrandonGrotesque-Medium;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+.position{
+        font-family: BrandonGrotesque-Light;
+    font-weight: 300;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.social_iconn{
+        overflow: hidden;
+    width: 260px;
+    margin: 0 auto;
+}
+.social_iconn ul{
+        margin-left: 13px;
+}
+.social_iconn ul li{
+        list-style: none;
+    float: left;
+    margin: 0 5px;
+}
+.social_iconn ul li a{
+        text-decoration: none;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+}
+.social_iconn ul li a .fa{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+.member_content{
+    font-family:brandon_reg;
+    font-size: 20px;
+    color: #777777;
+    text-align: center;
+}
+/*team 1 end*/
+/*submit box start*/
+.submitbox{
+    background-color: #7690C5;
+        border-bottom: 1px solid white
+}
+.leftall{
+      color: white;
+    width: 50%;
+    float: left;
+}
+.sayhello{
+    
+}
+.sayhello h1{
+        font-family:brandon_reg;
+    color: white;
+}
+.sayhello p{
+        font-family:brandon_reg;
+}
+.box_left{
+       float: left;
+    width: 24%; 
+}
+.box_left h1{
+      color: white;
+}
+.box_left p{
+      color: white;
+}
+.box_right{
+         float: right;
+    width: 24%;
+        padding-right: 70px;
+}
+.box_right p{
+      color: white;
+}
+.box_right img{
+    
+}
+/*submit box end*/
+/*input box start*/
+.right_sum_box{
+    width: 50%;
+    float: right;
+}
+.same_input_box{
+    
+}
+.same_input_box input{
+  width: 450px;
+    height: 60px;  
+}
+.input_box{
+        padding: 20px 20px;
+
+}
+.input_box2{
+       padding: 20px 20px;
+ 
+}
+.third_input_box{
+       padding: 20px 20px; 
+}
+.third_input_box input{
+    width: 450px;
+    height: 200px;
+}
+.button{
+  float: right;  
+}
+.button button{
+      border-radius: 50%;
+    border: none;
+    border: 2px solid #77777;
+    padding: 10px 20px;  
+}
+/*input box start*/
+/*footer start*/
+.footer p{
+     font-family:brandon_med;
+      color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    background-color:#7690C5;
+}
+/*footer end*/
